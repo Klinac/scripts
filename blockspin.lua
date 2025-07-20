@@ -2,6 +2,34 @@ repeat
     task.wait()
 until game:IsLoaded()
 
+-- ========== PATCH ANTI-CHEAT Net INVALID_ENTRY ==========
+
+-- Wait for Net module and block invalid_entry remote calls
+local replicatedStorage = game:GetService('ReplicatedStorage')
+local Net
+pcall(function()
+    Net = require(replicatedStorage:WaitForChild('Modules').Core.Net)
+end)
+if type(Net) == 'table' then
+    for k, v in pairs(Net) do
+        if typeof(v) == 'function' then
+            local old = v
+            Net[k] = function(...)
+                local args = { ... }
+                for _, arg in ipairs(args) do
+                    if arg == 'invalid_entry' then
+                        warn(
+                            "[ANTI-CHEAT PATCH] Blocked Net remote call with 'invalid_entry'"
+                        )
+                        return -- Block the call, do NOT call original
+                    end
+                end
+                return old(...)
+            end
+        end
+    end
+end
+
 --//=================================\\--
 --||   Variables you can customize   ||--
 --\\=================================//--
@@ -13,7 +41,8 @@ local UI_Theme = 'Dark' -- Can be 'Dark', 'Light', 'Nord', 'Solarized' or 'Dracu
 
 -- Ad-link settings
 local Linkvertise_Enabled = true
-local Linkvertise_Link = 'https://ads.luarmor.net/get_key?for=Blockspin_KEY-XObgexfvtOTN'
+local Linkvertise_Link =
+    'https://ads.luarmor.net/get_key?for=Blockspin_KEY-XObgexfvtOTN'
 
 local Lootlabs_Enabled = false
 local Lootlabs_Link = ''
