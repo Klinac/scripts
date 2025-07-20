@@ -14,7 +14,7 @@ local UI_Theme = 'Dark' -- Can be 'Dark', 'Light', 'Nord', 'Solarized' or 'Dracu
 -- Ad-link settings
 local Linkvertise_Enabled = true
 local Linkvertise_Link =
-    'https://ads.luarmor.net/get_key?for=AR2_Reward-IgvcvJYXZHBx'
+    'https://ads.luarmor.net/get_key?for=AR2_KEY-IgvcvJYXZHBx'
 
 local Lootlabs_Enabled = false
 local Lootlabs_Link = ''
