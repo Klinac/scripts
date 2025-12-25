@@ -2,7 +2,7 @@ repeat
 	task.wait()
 until game:IsLoaded()
 
-local Hub = "Utopia Hub"
+local Hub = "UtopiaHub"
 local Hub_Script_ID = "82bbac08b84b90f225efbed9f7e710e1"
 local Discord_Invite = "Pbk4HgjzvG"
 local UI_Theme = "Dark"
