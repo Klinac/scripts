@@ -13,15 +13,7 @@ local Linkvertise_Link = "https://ads.luarmor.net/get_key?for=-iwzNMqInSsqA"
 local Lootlabs_Enabled = false
 local Lootlabs_Link = ""
 
-local PlaceIDs = {
-	["118693886221846"] = "9b5ab79f8007e89b695dac53c55f0904",
-	["8304191830"] = "0bd8fd6455fc4e4e8453091023892b7c",
-	["18687417158"] = "58b52abb25606af68adcd5c0ce248c92",
-	["94845773826960"] = "69559f04bcb1949ddbea9b5e419520cd",
-	["121864768012064"] = "20efe85b3452d1fa0feb38ce30bbad53",
-	["126509999114328"] = "caa4a9861d7535dd998d280724aeafd4",
-	["91090822274062"]= "6f3c20fbf96cbc69b8c9f8fcf4c54e18"
-}
+local PlaceIDs = {}
 
 makefolder(Hub)
 local key_path = Hub .. "/Key.txt"
