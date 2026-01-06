@@ -14,7 +14,7 @@ local Lootlabs_Enabled = false
 local Lootlabs_Link = ""
 
 local PlaceIDs = {
-	["118693886221846"] = "9b5ab79f8007e89b695dac53c55f0904",
+	["18687417158"] = "40c31bdb7d339f65f14a53a5c63405d6",
 	["8304191830"] = "0bd8fd6455fc4e4e8453091023892b7c",
 	["18687417158"] = "58b52abb25606af68adcd5c0ce248c92",
 	["94845773826960"] = "69559f04bcb1949ddbea9b5e419520cd",
