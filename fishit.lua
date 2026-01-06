@@ -3,7 +3,7 @@ repeat
 until game:IsLoaded()
 
 local Hub = "UtopiaHub"
-local Hub_Script_ID = "f5a46cc5e86cf01a57944917a03e4317"
+local Hub_Script_ID = "40c31bdb7d339f65f14a53a5c63405d6"
 local Discord_Invite = "Pbk4HgjzvG"
 local UI_Theme = "Dark"
 
