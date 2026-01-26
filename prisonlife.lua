@@ -8,7 +8,7 @@ local Discord_Invite = "Pbk4HgjzvG"
 local UI_Theme = "Dark"
 
 local Linkvertise_Enabled = true
-local Linkvertise_Link = "https://ads.luarmor.net/get_key?for=-iwzNMqInSsqA"
+local Linkvertise_Link = "https://ads.luarmor.net/get_key?for=Utopia_Access_Key-iwzNMqInSsqA"
 
 local Lootlabs_Enabled = false
 local Lootlabs_Link = ""
