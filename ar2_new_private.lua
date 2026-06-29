@@ -11,7 +11,7 @@ local RunService = game:GetService("RunService")
 -- // CONFIGURATION \\ --
 local Config = {
     HubName = "UtopiaHub",
-    ScriptID = "1815d6d17e13cb3faddec5ff4852841d",
+    ScriptID = "ed585554442db0be0abb4d6bd468a5d7",
     DiscordInvite = "GMeJJAYqKQ",
     GetKeyLink = "https://utopiahub.mysellauth.com/product/apocalypse-rising-2",
     AccentColor = Color3.fromRGB(114, 137, 218), -- Discord-ish blurple/Utopia blue
